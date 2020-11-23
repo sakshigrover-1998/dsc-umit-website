@@ -1,14 +1,9 @@
-/**
-* Template Name: eNno - v2.1.0
-* Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
-  var scrolltoOffset = $('#header').outerHeight() - 16;
+  var scrolltoOffset = $('#header').outerHeight() - 16; //To find an element with a specific id(#)
   if (window.matchMedia("(max-width: 991px)").matches) {
     scrolltoOffset += 16;
   }
@@ -36,7 +31,7 @@
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
           $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
-          $('.mobile-nav-overly').fadeOut();
+          $('.mobile-nav-overly').fadeOut(); //find elements with a specific class, write a period character,
         }
         return false;
       }
@@ -57,7 +52,8 @@
   });
 
   // Mobile Navigation
-  if ($('.nav-menu').length) {
+  if ($('.nav-menu').length) //find elements with a specific class, write a period character,
+  {
     var $mobile_nav = $('.nav-menu').clone().prop({
       class: 'mobile-nav d-lg-none'
     });

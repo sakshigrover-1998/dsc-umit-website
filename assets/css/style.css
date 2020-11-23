@@ -580,11 +580,11 @@ section {
 
 .about .content ul {
   list-style: none;
-  padding: 0;
+  padding: 10px;
 }
 
 .about .content ul li {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 .about .content ul i {
@@ -596,6 +596,7 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -839,19 +840,19 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #16df7e;
+  background: #ffffff;
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta h3 {
-  color: #fff;
+  color: #000000;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #000000;
 }
 
 .cta .cta-btn {
